@@ -1,0 +1,64 @@
+.hero-content .content .lecture-title h2 {
+    margin-bottom: 15px;
+}
+
+.hero-content .content ul {
+    display: block;
+}
+
+.hero-content .content ul li {
+    margin-bottom: 10px;
+}
+
+.hero-content .content ul li a {
+    margin-left: 10px;
+    color: var(--primary-color);
+    font-family: "Source Sans 3", serif;
+}
+
+.hero-content .content ul li a:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.hero-content .content .category {
+    margin-top: 20px;
+}
+
+.hero-content .content .category h3 {
+    margin-bottom: 15px;
+}
+
+.hero-content .content ul {
+    .nested-list {
+        margin-left: 130px;
+    }
+}
+
+.hero-content .content ul .nested-list:before {
+    content: "•";
+}
+
+.hero-content .content .link {
+    margin-top: 30px;
+    margin-bottom: 50px
+}
+
+.hero-content .content .link p a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.hero-content .content .link p a:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.hero-content .content .note .note-description {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.hero-content .content .note {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,261 @@
+*,
+:before,
+:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #339AF0;
+    --secondary-color: #262626;
+    --font-color: #D9D9D9;
+    --margin-BES: 30px;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+
+.header-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+body {
+    font-family: "Source Sans 3", serif;
+    font-size: 18px;
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+}
+
+.header-content {
+    background-color: #339AF0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.content {
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+
+.content ul li:last-child {
+    margin-right: 0;
+}
+
+.content ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 0px;
+    font-family: "Source Code Pro", serif;
+}
+
+.content ul li a:hover {
+    color: #fff;
+}
+
+.content .bottom-nav-list {
+    display: none;
+}
+
+.hero-content {
+    margin-top: 40px;
+}
+
+.hero-content .title {
+    max-width: 700px;
+}
+
+.hero-content .title h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.hero-content .title h1 span {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+
+.hero-content .description p {
+    line-height: 1.5;
+}
+
+.hero-content .description p:nth-child(2) {
+    margin-top: 20px;
+}
+
+.hero-content .description p:nth-child(2) a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.hero-content .description p:nth-child(2) a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+
+.hero-content .schedule {
+    margin-top: var(--margin-BES);
+    line-height: 1.5;
+}
+
+.hero-content .schedule h2 {
+    margin-bottom: 15px;
+}
+
+.hero-content .schedule .schedule-description p:first-child {
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* border: 1px solid var(--primary-color); */
+    /* background-color: var(--primary-color); */
+    /* padding: 10px; */
+    /* max-width: fit-content; */
+}
+
+.hero-content .schedule .schedule-description p a {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.hero-content .schedule .schedule-description p span {
+    font-style: italic;
+}
+
+.hero-content .schedule .schedule-description p a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+
+/* .hero-content .schedule p:first-child:before { */
+/*     content: "- "; */
+/* } */
+
+.hero-content .schedule .schedule-description p:last-child {
+    margin-top: 20px;
+}
+
+.hero-content .schedule .schedule-description p:last-child a {
+    color: var(--primary-color);
+    text-decoration: none;    
+}
+
+.hero-content .schedule .schedule-description p:last-child a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.hero-content .class-information {
+    margin-top: var(--margin-BES);
+    line-height: 1.5;
+}
+
+.hero-content .class-information h2 {
+    margin-bottom: 15px;
+}
+
+.hero-content .class-information .class-description p span {
+    font-weight: bold;
+}
+
+.hero-content .class-information .class-description p a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.hero-content .class-information .class-description p a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.hero-content .contribute {
+    margin-top: var(--margin-BES);
+    line-height: 1.5;
+}
+
+.hero-content .contribute h2 {
+    margin-bottom: 15px;
+}
+
+.hero-content .contribute .contribute-description p a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.hero-content .contribute .contribute-description p a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 3px;
+}
+
+.hero-content .footer {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.hero-content .footer .content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.hero-content .footer .content a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

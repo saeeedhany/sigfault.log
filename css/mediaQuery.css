@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px){
+    .header .nav-list {
+        display: none;
+    }
+
+    .header .bottom-nav-list {
+        display: block;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .header .bottom-nav-list .hidden-links {
+        display: none;
+    }
+}
