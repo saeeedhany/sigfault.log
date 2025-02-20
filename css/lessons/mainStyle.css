@@ -1,0 +1,151 @@
+body {
+}
+
+.hero-content .content {
+    line-height: 1.5;
+
+}
+
+.hero-content .content p:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.hero-content .content h2 {
+    margin-bottom: 15px;
+}
+
+.hero-content .content .description img {
+    background-color: ##0A0A0A;
+    margin: 20px 0;
+}
+
+.hero-content .content .motiv-desc p:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.hero-content .content .motiv-desc p:nth-child(5) {
+    margin-top: 15px;
+}
+
+.hero-content .content .motiv-desc .foo {
+    margin-left: 20px;
+}
+
+.hero-content .content .motiv-desc .foo:before {
+    content: "- ";
+}
+
+.hero-content .content .lesson-content .lesson-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.hero-content .content .lesson-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.hero-content .content .lesson-title .sec-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-content .content .lesson-title ul {
+    display: block;
+    margin-left: 20px;
+}
+
+.hero-content .content .lesson-title ul li span {
+    color: #339AF0;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.hero-content .content .lesson-title ul li:before {
+    content: "- ";
+}
+
+.hero-content .content .lesson-code {
+    background-color: #191919;
+    border-left: 2.5px solid #339AF0;
+    max-width: 550px;
+    padding-bottom: 1px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.hero-content .content .lesson-content .lesson-code {
+    background-color: #191919;
+    border-left: 2.5px solid #339AF0;
+    max-width: 550px;
+    padding-bottom: 1px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.hero-content .content .lesson-content .lesson-code p {
+    color: #00ff00;
+}
+
+.hero-content .content .lesson-code p {
+    color: #00ff00;
+}
+
+.hero-content .content .lesson-content .lesson-code p span {
+    color: #c0c0c0;
+}
+
+.hero-content .content .lesson-code p span {
+    color: #c0c0c0;
+}
+
+.hero-content .content .lesson-content .code-info h3 {
+    margin-bottom: -10px;
+}
+
+.hero-content .content .lesson-content .code-info .install-title {
+    margin-left: 60px;
+}
+
+.hero-content .content .lesson-title .warning {
+    border: 2px solid #339AF0;
+    padding: 10px;
+    width: 550px;
+    margin: auto;
+}
+
+.hero-content .content .lesson-title .warning p {
+    margin: 0;
+}
+
+.hero-content .content .lesson-title .warning p span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #339AF0;
+}
+
+.hero-content .content .lesson-title ul {
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-content .content .lesson-title ul .marked {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.hero-content .content .lesson-title .lesson-code .not-main {
+    color: #c0c0c0;
+}
+
+.footer {
+    font-family: "Source Sans 3", serif;
+}
+

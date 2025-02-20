@@ -1,4 +1,12 @@
 @media only screen and (max-width: 600px){
+    body {
+        font-size: 17px;
+    }
+
+    .hero-content .title h1 {
+        font-size: 37px;
+    }
+
     .header .nav-list {
         display: none;
     }
@@ -13,4 +21,8 @@
     .header .bottom-nav-list .hidden-links {
         display: none;
     }
+}
+
+@media only screen and (max-width: 425px){
+
 }

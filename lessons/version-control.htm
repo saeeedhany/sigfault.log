@@ -1,0 +1,231 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Your missing lesson</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/lessons/mainStyle.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/mediaQuery.css">
+        <link rel="stylesheet" type="text/css" href="../css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+
+        <div clas="hero">
+
+            <div class="header">
+                <div class="header-content">
+                    <div class="header-container">
+                        <div class="content">
+                            <ul class="nav-list">
+                                <li>
+                                    <a href="../index.htm">./sigfault.log </a>
+                                </li>
+                                <li>
+                                    <a href="../lecture.htm">lectures</a>
+                                </li>
+                                <li>
+                                    <a href="../about.htm">about</a>
+                                </li>
+                            </ul>
+                            <ul class="bottom-nav-list">
+                                <li>
+                                    <a href="../index.htm" id="toggle-button">./sigfault.log <span class="dropp-list">(+)</span></a>
+                                </li>
+                                <li class="hidden-links">
+                                    <a href="../lecture.htm">- lectures</a>
+                                </li>
+                                <li class="hidden-links">
+                                    <a href="../about.htm">- about</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            
+            <div class="hero-content">
+                <div class="container">
+                    <div class="content">
+                        <div class="title">
+                            <h1>Git & GitHub Basic Tutorial</h1>
+                        </div>
+                        <div class="description">
+                            <p>Git is a distributed version control system that is used to track changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.</p>
+                            <img src="../assets/images/version-control.svg" alt="Git workflow" style="border-color: #00ff00">
+                            
+                            <h2>The motivation of this class</h2>
+                            <div class="motiv-desc">
+                                <p>In this lesson, the goal is to introduce Git and GitHub in the simplest way possible. The focus isn't on mastering Git but rather on understanding enough to make basic contributions.
+                                    By the end of this lesson, you'll know how to:</p>
+
+                                    <p class="foo">Use Git for basic version control.</p>
+                                    <p class="foo">Interact with GitHub to collaborate on projects.</p>
+                                    <p class="foo">Make simple contributions to this blog, such as fixing typos, improving explanations, or adding small insights.</p>
+
+                                <p>Let's get started!</p>
+                            </div>
+
+                            <div class="lesson-content">
+                                <div class="lesson-title">
+                                    <h3>First of all, Let's check if git is installed on your device.</h3>
+                                </div> 
+                                <div class="lesson-code">
+                                    <code><p>$ git --version <span> > git version 2.37.1</span></p></code>
+                                </div>
+                                <div class="lesson-title">
+                                    <h2>But!.. if you don't have it</h2>
+                                    <p>You can download it with these several ways:</p>
+                                </div> 
+                                <div class="code-info">
+                                    <h3>Linux (All Distros)</h3>
+                                    <p class="install-title">Debian/Ubuntu-based<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ sudo apt update && sudo apt install git -y</p></code>
+                                    </div>
+                                    <p class="install-title">Arch<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ sudo pacman -S git</p></code>
+                                    </div>
+                                    <p class="install-title">Gentoo<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ sudo emerge --ask dev-vcs/git</p></code>
+                                    </div>
+                                    <p class="install-title">Void Linux<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ sudo xbps-install -S git</p></code>
+                                    </div>
+                                    <p class="install-title">Alpine Linux<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ sudo apk add git</p></code>
+                                    </div>
+                                </div>
+                                <div class="code-info">
+                                    <h3>Windows (Using Terminal)</h3>
+                                    <p class="install-title">If you have Winget (Windows 10/11), install Git with:<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ winget install --id Git.Git -e --source winget</p></code>
+                                    </div>
+                                    <p class="install-title">If you have Chocolatey installed:<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ choco install git -y</p></code>
+                                    </div>
+                                    <p class="install-title">If you have Scoop installed:<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ scoop install git</p></code>
+                                    </div>
+                                </div>
+                                <div class="code-info">
+                                    <h3>macOS (Using Terminal)</h3>
+                                    <p class="install-title">If you have Homebrew installed:<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ brew install git </p></code>
+                                    </div>
+                                    <p class="install-title">If you don’t have Homebrew, install it first:<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</p></code>
+                                    </div>
+                                </div>
+                                <p>After that you can now use git..</p>
+                            </div>
+
+                            <div class="lesson-title">
+                                <h2>Core Concepts</h2>
+                                <ul>
+                                    <li><span class="command">Repository</span>: Project folder tracked by Git</li>
+                                    <li><span class="command">Commit</span>: Snapshot of your changes</li>
+                                    <li><span class="command">Branch</span>: Parallel version of code</li>
+                                    <li><span class="command">Remote</span>: Cloud-hosted repository (GitHub)</li>
+                                </ul>
+                            </div>
+
+                            <div class="lesson-title">
+                                <h2>Git Workflow</h2>
+                                <img src="https://git-scm.com/images/about/index1@2x.png" alt="Git workflow" style="border-color: #00ff00">
+                                    <p class="sec-title">Workflow Command<p>
+                                    <div class="lesson-code">
+                                        <code><p>$ git init <span># Initialize new repository</span></p></code>
+                                        <code><p>$ git add [file]<span># Stage changes</span></p></code>
+                                        <code><p>$ git commit -m "message"<span># Save changes</span></p></code>
+                                    </div>
+                            </div>
+
+                            <div class="lesson-title">
+                                <h2>Branch Management</h2>
+                                    <div class="lesson-code">
+                                        <code><p>$ git branch [name]<span># Create new branch</span></p></code>
+                                        <code><p>$ git checkout [branch]<span># Switch branches</span></p></code>
+                                        <code><p>$ git merge [branch]<span># Combine branches</span></p></code>
+                                    </div>
+                                    <div class="warning">
+                                        <p><span>Warning: </span>Always pull before pushing!</p>
+                                        <p><span>git pull origin main</span></p>
+                                    </div>
+                            </div>
+
+                            <div class="lesson-title">
+                                <h2>GitHub Integration</h2>
+                                    <div class="lesson-code">
+                                        <code><p>$ git remote add origin [url]<span># Connect to GitHub</span></p></code>
+                                        <code><p>$ git push -u origin main<span># First push</span></p></code>
+                                        <code><p>$ git clone [url]<span># Download repository</span></p></code>
+                                    </div>
+                            </div>
+
+                            <div class="lesson-title">
+                                <h2>Conflect Resulotion</h2>
+                                <ul>
+                                    <li>
+                                        Edit conflicted files
+                                    </li>
+                                    <li class="marked">git add [file]</li>
+                                    <li class="marked">git commit -m "resolve conflict"</li>
+                                </ul>
+                                    <div class="lesson-code">
+                                        <code><p>$ git status<p></code>
+                                        <code><p class="not-main">> On branch main</p></code>
+                                        <code><p class="not-main">> Your branch is up to date with 'origin/main'.</p><code>
+                                    </div>
+                            </div>
+
+
+                            
+
+                        </div>
+
+
+                        
+
+
+                <hr />
+                <div class="footer">
+                    <div class="footer-content">
+                        <div class="footer-container">
+                            <div class="content">
+                                <p><a href="">Edit This Page</a></p>
+                                <p>Licensed under saeed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+
+
+    </body>
+
+    <script src="../script.js"></script>
+
+</html>
