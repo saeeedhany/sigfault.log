@@ -17,6 +17,7 @@ body {
 .hero-content .content .description img {
     background-color: ##0A0A0A;
     margin: 20px 0;
+    max-width: 100%;
 }
 
 .hero-content .content .motiv-desc p:nth-child(1) {
